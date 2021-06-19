@@ -1,0 +1,66 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
+def mVersionCode = 10000
+def mVersionName = "1.0.0.0"
+
+android {
+    compileSdkVersion 29
+    defaultConfig {
+        applicationId "com.eun.sample"
+        minSdkVersion 19
+        targetSdkVersion 29
+        versionCode mVersionCode
+        versionName mVersionName
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    signingConfigs {
+        shared {
+            storeFile file("shared.keystore")
+            storePassword "android"
+            keyAlias "shared"
+            keyPassword "android"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        debug {
+            debuggable true
+            ext.alwaysUpdateBuildId = false
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.shared
+        }
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+
+    implementation 'androidx.appcompat:appcompat:1.3.0'
+    implementation 'androidx.annotation:annotation:1.2.0'
+
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'androidx.core:core:1.5.0'
+    implementation "androidx.core:core-ktx:1.5.0"
+
+    implementation 'com.google.android.material:material:1.3.0'
+    implementation 'com.google.code.gson:gson:2.8.6'
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}
+

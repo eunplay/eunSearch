@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="progressbar_box_bg_color">#272727</color>
+    <color name="progressbar_box_font_color">#ffffff</color>
+    <color name="progressbar_box_line_color">#545454</color>
+
+    <color name="dialog_title">#4b4b4b</color>
+    <color name="dialog_subtitle">#7b7b7b</color>
+    <color name="dialog_description">#505050</color>
+    <color name="dialog_status">#fb744a</color>
+    <color name="dialog_cancel_btn">#009689</color>
+    <color name="menuSelect">#2196f3</color>
+    <color name="menuLine">#dadbdc</color>
+    <color name="white">#FFFFFF</color>
+    <color name="timeText">#ffc107</color>
+
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Eun\'s Search</string>
+	<string name="exit_then_one_more_tab">한번 더 누르시면 프로그램이 종료됩니다.</string>
+	<string name="message_confirm">확인</string>
+	<string name="message_cancel">취소</string>
+
+	<string name="fingerprint_auth">지문 인증 </string>
+	<string name="yes">예</string>
+	<string name="no">아니오</string>
+	<string name="notification">알림</string>
+	<string name="keyword_hint">검색어를 입력해 주세요.</string>
+	<string name="next">"다음"</string>
+	<string name="content_desc">content_desc</string>
+	<string name="search">Search</string>
+
+	<string name="message_enter_your_cert_password">인증서 비밀번호를 입력해 주세요.</string>
+	<string name="message_unisign_enter_your_current_password">비밀번호를 입력해 주세요.</string>
+	<string name="message_unisign_enter_your_new_password">새 비밀번호를 입력해 주세요.</string>
+	<string name="message_unisign_failed_get_cert">조회할 인증서가 없습니다.</string>
+	<string name="message_failed_get_search_list">조회할 검색 목록이 없습니다.</string>
+	<string name="message_unisign_not_matched_password">비밀번호가 일치하지 않습니다.\n다시 시도하여 주시기 바랍니다.</string>
+	<string name="message_unisign_time_limit_has_been_exceeded">제한시간을 초과하였습니다.\n다시 시도하여 주시기 바랍니다.</string>
+	<string name="message_unisign_not_matched_new_password">새 비밀번호와 비밀번호 확인용 비밀번호가 일치하지 않습니다.</string>
+	<string name="message_unisign_current_password_and_new_password_same">현재 비밀번호와 새 비밀번호가 동일합니다.\n비밀번호를 다시 입력해 주세요.</string>
+	<string name="message_question_delete_cert1">인증서를 삭제 하시겠습니까?</string>
+	<string name="message_question_delete_cert2">- 삭제하더라도 PC에 있는 인증서는 삭제 되지 않습니다.\n\n</string>
+	<string name="message_question_delete_cert3">- 삭제 후, PC에 있는 인증서를 스마트폰으로도 다시 가져와 사용할 수 있습니다.</string>
+
+</resources>
