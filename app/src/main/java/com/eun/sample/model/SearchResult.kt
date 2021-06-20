@@ -1,10 +1,17 @@
 package com.eun.sample.model
 
-/**
- * 검색 결과를 가지고 있는 Search Result
- */
-class SearchResult {
+import com.google.gson.annotations.SerializedName
+import java.io.Serializable
+import java.util.*
 
-    var name: String? = null
+class SearchResult : Serializable {
+    @SerializedName("total_count")
+    var totalCount = 0
+
+    @SerializedName("incomplete_results")
+    var isIncompleteResults = false
+
+    @SerializedName("items")
+    var items: ArrayList<Item>? = null
 
 }

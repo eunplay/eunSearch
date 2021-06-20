@@ -9,11 +9,11 @@
         android:layout_width="0dp"
         android:layout_height="48dp"
         android:background="@drawable/top_bar"
-        android:contentDescription="@string/app_name"
+        android:contentDescription="@string/message_app_name"
         android:gravity="center"
-        android:text="@string/app_name"
+        android:text="@string/message_app_name"
         android:textColor="#FFFFFF"
-        android:textSize="18sp"
+        android:textSize="17sp"
         app:layout_constraintBottom_toTopOf="@+id/tv_version"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -37,58 +37,70 @@
     <EditText
         android:id="@+id/et_keyword"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:autofillHints="@string/keyword_hint"
-        android:hint="@string/keyword_hint"
+        android:layout_height="40dp"
+        android:autofillHints="@string/message_keyword_hint"
+        android:hint="@string/message_keyword_hint"
         android:inputType="text"
         android:lines="1"
         android:textColor="#000000"
-        android:textSize="18sp"
+        android:textSize="17sp"
         app:layout_constraintBottom_toTopOf="@+id/view_divider"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_version"
         app:layout_constraintWidth_default="percent"
-        app:layout_constraintWidth_percent="0.8" />
+        app:layout_constraintWidth_percent="0.9" />
 
     <Button
         android:id="@+id/bt_search"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:background="#FFFF00"
+        android:layout_height="40dp"
+        android:background="@drawable/magnifying_glass"
         android:gravity="center"
         android:onClick="btnClick"
-        android:text="@string/search"
         android:textColor="#000000"
-        android:textSize="18sp"
+        android:textSize="17sp"
         app:layout_constraintBottom_toTopOf="@+id/view_divider"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toEndOf="@+id/et_keyword"
         app:layout_constraintTop_toBottomOf="@+id/tv_version"
         app:layout_constraintWidth_default="percent"
-        app:layout_constraintWidth_percent="0.2" />
+        app:layout_constraintWidth_percent="0.1" />
 
     <View
         android:id="@+id/view_divider"
         android:layout_width="0dp"
         android:layout_height="1dp"
         android:background="@color/menuLine"
-        app:layout_constraintBottom_toTopOf="@+id/fragment_layout"
+        app:layout_constraintBottom_toTopOf="@+id/tv_keyword_view"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bt_search" />
+
+    <TextView
+        android:id="@+id/tv_keyword_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toTopOf="@+id/fragment_layout"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view_divider" />
 
     <FrameLayout
         android:id="@+id/fragment_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#ff0000"
         android:paddingLeft="10dp"
+        android:background="@color/cardview_dark_background"
         android:paddingRight="10dp"
         app:layout_constraintBottom_toTopOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/view_divider" />
+        app:layout_constraintTop_toBottomOf="@id/tv_keyword_view" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

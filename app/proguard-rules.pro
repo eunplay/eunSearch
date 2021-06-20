@@ -1,8 +1,6 @@
 
 -optimizationpasses 5
 -dontusemixedcaseclassnames
--dontskipnonpubliclibraryclasses
--dontpreverify
 -verbose
 -optimizations !code/simplification/arithmetic,!field/*,!class/merging/*
 -optimizations !code/allocation/variable
@@ -11,8 +9,6 @@
 ##---------------Begin: proguard configuration for Gson  ----------
 -keepattributes Signature
 -keepattributes *Annotation*
--keep class sun.misc.Unsafe { *; }
--keep class com.google.gson.examples.android.model.** { *; }
 ##---------------End: proguard configuration for Gson  ----------
 
 # Waring 무시

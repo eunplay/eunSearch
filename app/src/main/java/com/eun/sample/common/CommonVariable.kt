@@ -8,22 +8,25 @@ class CommonVariable {
 
     companion object {
 
-        // =====================
-        // ==== 데이터 파라미터 ====
-        // =====================
-        const val REQUEST_CODE = "requestCode"
         const val RESPONSE = "response"
         const val ERROR = "error"
-        const val OPERATION: String = "operation"
+        const val KEYWORD = "keyword"
+        const val AUTHORIZATION: String = "Authorization"
+        const val ACCEPT: String = "Accept"
+        const val GITHUB_V3: String = "application/vnd.github.v3+json"
+        const val ACCESS_TOKEN: String = "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"
 
+        // const val SEARCH_URL = "https://api.github.com/search/code"
+        const val SEARCH_URL = "api.github.com"
 
-        // CC_DEV
-        private const val CC_DEV_CA_URL = "10.10.20.16"
+        // ============================
+        // ==== Network StatusCode ====
+        // ============================
+        const val SEARCH_REQUEST_SUCCESS = 200
+        const val SEARCH_REQUEST_FAILED = 201
+        const val SEARCH_REQUEST_NETWORK_FAILED = 301
+        const val SEARCH_REQUEST_NETWORK_BODY_EMPTY = 302
+        const val SEARCH_REQUEST_EXCEPTION = 303
 
-        // CC_QA
-        private const val CC_QA_CA_URL = "211.192.169.151"
-
-        const val CA_URL = CC_DEV_CA_URL
-        const val CA_PORT = 4502
     }
 }

@@ -54,7 +54,70 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85053115-4483-4552-b270-8be65bd41f7f" name="Default" comment="# v1.0.0&#10;1. 전자서명 API 수정&#10;2. LogManager.kt 수정" />
+    <list default="true" id="85053115-4483-4552-b270-8be65bd41f7f" name="Default" comment="# v1.0.0&#10;- Github Search API 연동 완료">
+      <changelist_data name="eunplay@gmail.com" email="" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_4_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_2_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__me_grantland_autofittextview_0_2_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/eun/sample/model/Item.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/eun/sample/model/Repository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/eun/sample/task/SearchRequestTask.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/eun/sample/view/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/magnifying_glass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/magnifying_glass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/magnifying_glass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/magnifying_glass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/adapter_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/EunSearchSample.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/EunSearchSample.app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/app/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/eun/sample/activity/BasisActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/eun/sample/view/BasisActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/eun/sample/activity/IntroActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/eun/sample/view/IntroActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/eun/sample/activity/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/eun/sample/activity/fragment/BasisFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/eun/sample/activity/fragment/SearchListFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/eun/sample/view/fragment/SearchListFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/eun/sample/adapter/SearchRecyclerAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/eun/sample/adapter/SearchRecyclerAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/eun/sample/common/CommonVariable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/eun/sample/common/CommonVariable.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/eun/sample/model/SearchResult.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/eun/sample/model/SearchResult.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/bg_bottom_sheet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/error.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/info.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ok.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/keyboard_button_bg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/keyboard_divider.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_intro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_intro.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/adapter_cert.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/dialog_cert.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_cert_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_item_list.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/progress_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/progress_dialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/row_function_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-w820dp/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-w820dp/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/knoxenabled_info.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/network_security_config.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,12 +152,18 @@
       <list>
         <option value="layoutResourceFile" />
         <option value="layoutResourceFile_vertical" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="eunplay" />
+        <option value="eunplay@gmail.com" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
@@ -116,13 +185,14 @@
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-06-03T07:22:45.167310Z" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHOW_ALL_PROCESSES" value="true" />
-    <property name="ToolWindowLogcat.ShowToolbar" value="false" />
+    <property name="android-custom-viewC:/Users/Happiness/AppData/Local/Android/Sdk/sources/android-29/android/widget/EditText.java_SELECTED" value="EditText" />
     <property name="android.sdk.path" value="$USER_HOME$/AnroidSDK" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="device.picker.selection" value="R39M30B4QBM" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Repository" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable-mdpi" />
+    <property name="multi-representation-previewC:/Users/Happiness/AppData/Local/Android/Sdk/sources/android-29/android/widget/EditText.java_selected" value="Custom views" />
     <property name="not.eligible.for.single.variant.sync" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.17" />
@@ -168,13 +238,14 @@
       <recent name="com.crosscert.sign.sample" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Happiness\Desktop\Eun\EunSearchSample\app\src\main\res\drawable-mdpi" />
+      <recent name="C:\Users\Happiness\Desktop\Eun\EunSearchSample\app\src\main\res" />
+      <recent name="C:\Users\Happiness\Desktop\Eun\EunSearchSample\app\src\main\res\drawable-hdpi" />
       <recent name="C:\Users\Happiness\Desktop\Eun\EunSearchSample\app\src\main\java\com\eun\sample" />
       <recent name="C:\Users\Happiness\Desktop\Eun\EunSearchSample\app\src\main\res\layout" />
-      <recent name="C:\Users\Happiness\Desktop\Eun\CrosscertSignSample\app\src\main\java\com\eun\sample\activity" />
-      <recent name="$PROJECT_DIR$/../../UNISIGN/CrosscertSignLib/app/libs" />
-      <recent name="$PROJECT_DIR$/CrosscertSignLib" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.eun.sample.model" />
       <recent name="com.crosscert.fido.sample.common" />
       <recent name="com.crosscert.fido.sample.activity.move.adapter" />
       <recent name="com.crosscert.fido.sample.activity.move.fragment" />
@@ -196,7 +267,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EunSearchSample.app" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="EunSearchSample.app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="EunSearchSample.app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -420,12 +491,12 @@
     </configuration>
     <list>
       <item itemvalue="Android App.app" />
+      <item itemvalue="Android App.EunSearchSample.app" />
       <item itemvalue="Gradle.CrosscertFidoSampleForToss [generateReleaseSources]" />
       <item itemvalue="Gradle.CrosscertFidoSampleForToss [generateReleaseUnitTestAssets]" />
       <item itemvalue="Gradle.CrosscertFidoSampleForToss [generateReleaseUnitTestResources]" />
       <item itemvalue="Gradle.CrosscertFidoSampleForToss [generateReleaseUnitTestSources]" />
       <item itemvalue="Gradle.CrosscertFidoSampleForToss [javaPreCompileDebug]" />
-      <item itemvalue="Android App.EunSearchSample.app" />
     </list>
     <recent_temporary>
       <list>
@@ -527,7 +598,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621324138037</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="# v0.0.1&#10;1. 샘플 데이터를 통한 ProtoType 개발 66% 완료">
+      <created>1624094330420</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1624094330420</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -552,7 +630,12 @@
     <MESSAGE value="# v1.0.0&#10;1. proguard-rules.pro 추가&#10;2. build.gradle 수정&#10;3. 전자서명 API 변경" />
     <MESSAGE value="# v1.0.0&#10;1. Response 데이터 수정" />
     <MESSAGE value="# v1.0.0&#10;1. 전자서명 API 수정&#10;2. LogManager.kt 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="# v1.0.0&#10;1. 전자서명 API 수정&#10;2. LogManager.kt 수정" />
+    <MESSAGE value="# v0.0.1&#10;1. 샘플 데이터를 통한 ProtoType 개발 66% 완료" />
+    <MESSAGE value="# v0.0.2&#10;1. 샘플 데이터를 통한 ProtoType 개발 100% 완료" />
+    <MESSAGE value="# v1.0.0&#10;1. Github Search API 연동 완료" />
+    <MESSAGE value="# v0.0.2&#10;- Github Search API 연동 완료" />
+    <MESSAGE value="# v1.0.0&#10;- Github Search API 연동 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="# v1.0.0&#10;- Github Search API 연동 완료" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -585,10 +668,10 @@
     </state>
     <state x="410" y="217" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1624064922299" />
     <state x="2295" y="116" key="#com.intellij.fileTypes.FileTypeChooser/48.23.1632.1027/1680.-221.1920.1057@1680.-221.1920.1057" timestamp="1616137668190" />
-    <state x="515" y="50" key="#com.intellij.ide.util.MemberChooser" timestamp="1624082121555">
+    <state x="515" y="50" key="#com.intellij.ide.util.MemberChooser" timestamp="1624114284105">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="515" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1624082121555" />
+    <state x="515" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1624114284105" />
     <state x="2453" y="242" key="#com.intellij.ide.util.MemberChooser/42.23.1638.1027/1680.23.1920.1057@1680.23.1920.1057" timestamp="1621225695256" />
     <state x="701" y="236" key="#com.intellij.ide.util.MemberChooser/42.23.1638.1027@42.23.1638.1027" timestamp="1621230955650" />
     <state x="2452" y="242" key="#com.intellij.ide.util.MemberChooser/43.23.1637.1027/1680.23.1920.1057@1680.23.1920.1057" timestamp="1621300028188" />
@@ -600,6 +683,10 @@
       <screen x="1680" y="-221" width="1920" height="1057" />
     </state>
     <state x="2404" y="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/43.23.1637.1027/1680.-221.1920.1057@1680.-221.1920.1057" timestamp="1620103738427" />
+    <state x="310" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1624114194013">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="310" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1624114194013" />
     <state x="2378" y="61" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1620104055624">
       <screen x="1680" y="-221" width="1920" height="1057" />
     </state>
@@ -612,20 +699,20 @@
       <screen x="1680" y="-221" width="1920" height="1057" />
     </state>
     <state x="2396" y="106" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/43.23.1637.1027/1680.-221.1920.1057@1680.-221.1920.1057" timestamp="1620104118954" />
-    <state x="459" y="254" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1624091002218">
+    <state x="459" y="254" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1624194741631">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="459" y="254" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.680@0.0.1280.680" timestamp="1624091002218" />
+    <state x="459" y="254" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.680@0.0.1280.680" timestamp="1624194741631" />
     <state x="2369" y="174" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/43.23.1637.1027/1680.-221.1920.1057@1680.-221.1920.1057" timestamp="1620265935186" />
     <state x="630" y="407" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/43.23.1637.1027/1680.23.1920.1057@43.23.1637.1027" timestamp="1621315545154" />
     <state x="221" y="96" key="AndroidCreateResourceFileDialog" timestamp="1624064840958">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="221" y="96" key="AndroidCreateResourceFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1624064840958" />
-    <state x="472" y="165" key="AndroidCreateXmlResourceDialog" timestamp="1624078325069">
+    <state x="472" y="165" key="AndroidCreateXmlResourceDialog" timestamp="1624121400715">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="472" y="165" key="AndroidCreateXmlResourceDialog/0.0.1280.680@0.0.1280.680" timestamp="1624078325069" />
+    <state x="472" y="165" key="AndroidCreateXmlResourceDialog/0.0.1280.680@0.0.1280.680" timestamp="1624121400715" />
     <state x="615" y="-775" key="AndroidProcessChooserDialog" timestamp="1622792035647">
       <screen x="-140" y="-1057" width="1920" height="1057" />
     </state>
@@ -649,20 +736,20 @@
       <screen x="-140" y="-1057" width="1920" height="1057" />
     </state>
     <state x="164" y="-903" width="1310" height="821" key="DiffContextDialog/42.23.1638.1027/-140.-1057.1920.1057@-140.-1057.1920.1057" timestamp="1622710906704" />
-    <state x="411" y="90" key="FileChooserDialogImpl" timestamp="1624092786545">
+    <state x="411" y="90" key="FileChooserDialogImpl" timestamp="1624104940869">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="411" y="90" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1624092786545" />
-    <state x="495" y="222" width="473" height="223" key="Github.ShareDialog" timestamp="1624092584122">
+    <state x="411" y="90" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1624104940869" />
+    <state x="495" y="222" width="473" height="223" key="Github.ShareDialog" timestamp="1624122342103">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="495" y="222" width="473" height="223" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1624092584122" />
-    <state width="1236" height="310" key="GridCell.Tab.0.bottom" timestamp="1624086448504">
+    <state x="495" y="222" width="473" height="223" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1624122342103" />
+    <state width="631" height="150" key="GridCell.Tab.0.bottom" timestamp="1624155088660">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1595" height="347" key="GridCell.Tab.0.bottom/-109.-1057.1920.1057/42.23.1638.1027@42.23.1638.1027" timestamp="1620284868042" />
     <state width="1878" height="347" key="GridCell.Tab.0.bottom/-109.-1057.1920.1057/43.23.1637.1027@-109.-1057.1920.1057" timestamp="1620285369160" />
-    <state width="1236" height="310" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1624086448504" />
+    <state width="631" height="150" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1624155088660" />
     <state width="1836" height="296" key="GridCell.Tab.0.bottom/0.23.1680.1027/-1878.23.1878.1057@-1878.23.1878.1057" timestamp="1620621245783" />
     <state width="1878" height="432" key="GridCell.Tab.0.bottom/39.23.1641.1027/1680.23.1920.1057@1680.23.1920.1057" timestamp="1620989654658" />
     <state width="1599" height="562" key="GridCell.Tab.0.bottom/39.23.1641.1027/1680.23.1920.1057@39.23.1641.1027" timestamp="1620984843837" />
@@ -683,12 +770,12 @@
     <state width="1878" height="399" key="GridCell.Tab.0.bottom/49.23.1631.1027/1680.-221.1920.1057@1680.-221.1920.1057" timestamp="1617071506405" />
     <state width="1878" height="593" key="GridCell.Tab.0.bottom/49.23.1631.1027/1680.-221.1920.1057@49.23.1631.1027" timestamp="1617089937388" />
     <state width="1589" height="253" key="GridCell.Tab.0.bottom/49.23.1631.1027@49.23.1631.1027" timestamp="1616461478050" />
-    <state width="1236" height="310" key="GridCell.Tab.0.center" timestamp="1624086448503">
+    <state width="631" height="150" key="GridCell.Tab.0.center" timestamp="1624155088660">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1595" height="347" key="GridCell.Tab.0.center/-109.-1057.1920.1057/42.23.1638.1027@42.23.1638.1027" timestamp="1620284868041" />
     <state width="1878" height="347" key="GridCell.Tab.0.center/-109.-1057.1920.1057/43.23.1637.1027@-109.-1057.1920.1057" timestamp="1620285369160" />
-    <state width="1236" height="310" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1624086448503" />
+    <state width="631" height="150" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1624155088660" />
     <state width="1836" height="296" key="GridCell.Tab.0.center/0.23.1680.1027/-1878.23.1878.1057@-1878.23.1878.1057" timestamp="1620621245782" />
     <state width="1878" height="432" key="GridCell.Tab.0.center/39.23.1641.1027/1680.23.1920.1057@1680.23.1920.1057" timestamp="1620989654657" />
     <state width="1599" height="562" key="GridCell.Tab.0.center/39.23.1641.1027/1680.23.1920.1057@39.23.1641.1027" timestamp="1620984843836" />
@@ -709,12 +796,12 @@
     <state width="1878" height="399" key="GridCell.Tab.0.center/49.23.1631.1027/1680.-221.1920.1057@1680.-221.1920.1057" timestamp="1617071506404" />
     <state width="1878" height="593" key="GridCell.Tab.0.center/49.23.1631.1027/1680.-221.1920.1057@49.23.1631.1027" timestamp="1617089937387" />
     <state width="1589" height="253" key="GridCell.Tab.0.center/49.23.1631.1027@49.23.1631.1027" timestamp="1616461478050" />
-    <state width="1236" height="310" key="GridCell.Tab.0.left" timestamp="1624086448503">
+    <state width="631" height="150" key="GridCell.Tab.0.left" timestamp="1624155088660">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1595" height="347" key="GridCell.Tab.0.left/-109.-1057.1920.1057/42.23.1638.1027@42.23.1638.1027" timestamp="1620284868040" />
     <state width="1878" height="347" key="GridCell.Tab.0.left/-109.-1057.1920.1057/43.23.1637.1027@-109.-1057.1920.1057" timestamp="1620285369159" />
-    <state width="1236" height="310" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1624086448503" />
+    <state width="631" height="150" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1624155088660" />
     <state width="1836" height="296" key="GridCell.Tab.0.left/0.23.1680.1027/-1878.23.1878.1057@-1878.23.1878.1057" timestamp="1620621245781" />
     <state width="1878" height="432" key="GridCell.Tab.0.left/39.23.1641.1027/1680.23.1920.1057@1680.23.1920.1057" timestamp="1620989654656" />
     <state width="1599" height="562" key="GridCell.Tab.0.left/39.23.1641.1027/1680.23.1920.1057@39.23.1641.1027" timestamp="1620984843836" />
@@ -735,12 +822,12 @@
     <state width="1878" height="399" key="GridCell.Tab.0.left/49.23.1631.1027/1680.-221.1920.1057@1680.-221.1920.1057" timestamp="1617071506403" />
     <state width="1878" height="593" key="GridCell.Tab.0.left/49.23.1631.1027/1680.-221.1920.1057@49.23.1631.1027" timestamp="1617089937387" />
     <state width="1589" height="253" key="GridCell.Tab.0.left/49.23.1631.1027@49.23.1631.1027" timestamp="1616461478049" />
-    <state width="1236" height="310" key="GridCell.Tab.0.right" timestamp="1624086448504">
+    <state width="631" height="150" key="GridCell.Tab.0.right" timestamp="1624155088660">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1595" height="347" key="GridCell.Tab.0.right/-109.-1057.1920.1057/42.23.1638.1027@42.23.1638.1027" timestamp="1620284868041" />
     <state width="1878" height="347" key="GridCell.Tab.0.right/-109.-1057.1920.1057/43.23.1637.1027@-109.-1057.1920.1057" timestamp="1620285369160" />
-    <state width="1236" height="310" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1624086448504" />
+    <state width="631" height="150" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1624155088660" />
     <state width="1836" height="296" key="GridCell.Tab.0.right/0.23.1680.1027/-1878.23.1878.1057@-1878.23.1878.1057" timestamp="1620621245782" />
     <state width="1878" height="432" key="GridCell.Tab.0.right/39.23.1641.1027/1680.23.1920.1057@1680.23.1920.1057" timestamp="1620989654658" />
     <state width="1599" height="562" key="GridCell.Tab.0.right/39.23.1641.1027/1680.23.1920.1057@39.23.1641.1027" timestamp="1620984843836" />
@@ -789,17 +876,21 @@
       <screen x="40" y="23" width="1640" height="1027" />
     </state>
     <state x="496" y="305" key="MultipleFileMergeDialog/40.23.1640.1027/1680.23.1920.1057@40.23.1640.1027" timestamp="1620966817080" />
-    <state x="0" y="0" key="SettingsEditor" timestamp="1624092766948">
+    <state x="0" y="0" key="SettingsEditor" timestamp="1624122313740">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="0" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1624092766948" />
+    <state x="0" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1624122313740" />
     <state x="-140" y="-743" key="SettingsEditor/42.23.1638.1027/-140.-1057.1920.1057@-140.-1057.1920.1057" timestamp="1622769340569" />
     <state x="1680" y="358" key="SettingsEditor/43.23.1637.1027/1680.23.1920.1057@1680.23.1920.1057" timestamp="1621239043332" />
     <state x="43" y="328" key="SettingsEditor/43.23.1637.1027/1680.23.1920.1057@43.23.1637.1027" timestamp="1621315572825" />
-    <state x="67" y="64" width="1147" height="552" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1624036338642">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1624122366206">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="67" y="64" width="1147" height="552" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1624036338642" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1624122366206" />
+    <state x="67" y="64" width="1147" height="552" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1624196147112">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="67" y="64" width="1147" height="552" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1624196147112" />
     <state x="-40" y="-957" width="1720" height="857" key="com.intellij.history.integration.ui.views.FileHistoryDialog/42.23.1638.1027/-140.-1057.1920.1057@-140.-1057.1920.1057" timestamp="1622947673862" />
     <state x="1780" y="-121" width="1720" height="857" key="com.intellij.history.integration.ui.views.FileHistoryDialog/48.23.1632.1027/1680.-221.1920.1057@1680.-221.1920.1057" timestamp="1616136857582" />
     <state x="-40" y="-957" width="1720" height="857" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1622710906705">
@@ -816,10 +907,10 @@
     <state x="2089" y="309" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/39.23.1641.1027/1680.23.1920.1057@1680.23.1920.1057" timestamp="1620986828015" />
     <state x="269" y="-771" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/42.23.1638.1027/-140.-1057.1920.1057@-140.-1057.1920.1057" timestamp="1622702552186" />
     <state x="2089" y="309" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/43.23.1637.1027/1680.23.1920.1057@1680.23.1920.1057" timestamp="1621249117272" />
-    <state x="488" y="239" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1624092810695">
+    <state x="488" y="239" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1624196652508">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="488" y="239" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1624092810695" />
+    <state x="488" y="239" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1624196652508" />
     <state x="667" y="384" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1680.23.1920.1057/43.23.1637.1027@43.23.1637.1027" timestamp="1621486792771" />
     <state x="2412" y="395" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/39.23.1641.1027/1680.23.1920.1057@1680.23.1920.1057" timestamp="1620988174034" />
     <state x="665" y="384" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/39.23.1641.1027/1680.23.1920.1057@39.23.1641.1027" timestamp="1620985073173" />
@@ -845,10 +936,14 @@
       <screen x="-140" y="-1057" width="1920" height="1057" />
     </state>
     <state width="600" height="428" key="javadoc.popup/42.23.1638.1027/-140.-1057.1920.1057@-140.-1057.1920.1057" timestamp="1622712835764" />
-    <state x="417" y="151" width="736" height="160" key="search.everywhere.popup" timestamp="1624082051033">
+    <state x="383" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1624109024409">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="417" y="151" width="736" height="160" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1624082051033" />
+    <state x="383" y="0" key="refactoring.ChangeSignatureDialog/0.0.1280.680@0.0.1280.680" timestamp="1624109024409" />
+    <state x="417" y="151" width="736" height="160" key="search.everywhere.popup" timestamp="1624110438983">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="417" y="151" width="736" height="160" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1624110438983" />
     <state x="485" y="-822" width="670" height="158" key="search.everywhere.popup/42.23.1638.1027/-140.-1057.1920.1057@-140.-1057.1920.1057" timestamp="1622712738715" />
     <state x="2305" y="258" width="670" height="58" key="search.everywhere.popup/43.23.1637.1027/1680.23.1920.1057@1680.23.1920.1057" timestamp="1621243457747" />
     <state x="603" y="438" key="svn.passwordDialog" timestamp="1620624856060">
@@ -860,7 +955,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/eun/sample/activity/fido/PasscodeActivity.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/eun/sample/view/fido/PasscodeActivity.kt</url>
           <line>349</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
@@ -870,12 +965,12 @@
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/eun/sample/activity/selfauth/UniSignActivity.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/eun/sample/view/selfauth/UniSignActivity.kt</url>
           <line>2</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/eun/sample/activity/selfauth/CertV2Activity.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/eun/sample/view/selfauth/CertV2Activity.kt</url>
           <line>444</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>

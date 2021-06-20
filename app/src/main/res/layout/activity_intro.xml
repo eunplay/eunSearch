@@ -10,7 +10,7 @@
         android:layout_height="0dp"
         android:layout_margin="20dp"
         android:gravity="start|center_vertical"
-        android:text="권한 획득에 대한 안내를 합니다."
+        android:text="@string/message_permission_description"
         android:textColor="#000000"
         android:textSize="20sp"
         android:textStyle="bold"
